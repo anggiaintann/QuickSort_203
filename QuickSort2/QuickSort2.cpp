@@ -64,3 +64,7 @@ void q_short(int low, int high) {
 	if (i < j) //langkah 9
 		//if greater element is on left on the element
 	{
+		//swap the element at index i with the element at index j
+		swap(i, j);
+		mov_count++;
+	}
