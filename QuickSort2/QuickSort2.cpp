@@ -78,3 +78,7 @@ void display() {
 	cout << "\n-------------" << endl;
 	cout << "\n sorted array" << endl;
 	cout << "\n-------------" << endl;
+
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
